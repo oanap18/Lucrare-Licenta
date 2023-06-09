@@ -218,7 +218,7 @@ p.informatii {
 .online {
     display: flex;
     flex-direction: row;
-    gap: 6rem;
+    gap: 5.1rem;
     padding-left: 4rem;
     max-width: 26rem;
     align-items: center;
@@ -254,7 +254,7 @@ p.informatii {
 .locuri-disponibile {
     display: flex;
     flex-direction: row;
-    gap: 0.5rem;
+    gap: 1.3rem;
     padding-left: 4rem;
     max-width: 26rem;
     align-items: center;
