@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/static/css/chat.css">
+    <link rel="stylesheet" href="css/static/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Activitati-studentesti.css" />
+
+    <title> Activități studențești </title>
+    <!--Swipper CSS-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- Meniu principal -->
+    <div id="navbar">
+        <div>
+            <a href="index.html"><img src="Resurse/universitate logo/logo-bun" class="logo"> </a>
+        </div>
+        <div class="main">
+
+            <ul>
+                <li><a href="Cursuri.html">Cursuri</a></li>
+                <li><a href="Desprespecializare.html">Despre specializare</a></li>
+                <li><a href="Activitati-studentesti.html">Activități studențești</a></li>
+                <li><a href="Informatii-admitere.html">Informații admitere</a></li>
+                <li><a href="Intrebari-frecvente.html">Întrebări frecvente</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Licenta -->
+
+    <div class="MD">
+        <p class="licenta">Licență: Media Digitală</p>
+    </div>
+
+
+    <!--==================Detalii dspre cursurile noastre================================-->
+    <div class="detalii">
+        <p class="informatii">
+            Unitbv îi îndeamnă pe studenți să se dezvolte atât pe plan intelectual cât și pe plan personal. Media
+            digitală reprezintă un domeniu în continuă dezvoltare, care oferă numeroase oportunități specializate pentru
+            studenți. Aceste oportunități includ posibilitatea de a lucra într-un mediu creativ și dinamic, de a
+            dezvolta competențe în utilizarea instrumentelor digitale și de a-ți construi o carieră într-un domeniu care
+            evoluează constant.
+        </p>
+    </div>
+
+
+    <div class="activitati">
+        <div class="primele-activitati">
+            <div class="activitate1">
+                <h4 class="titlu">Voluntariat studenti</h4>
+                <a href="comingsoon.html"><img src="Resurse/Activitati studentesti/Voluntariat studenti.png"
+                        class="iconita"> </a>
+            </div>
+
+            <div class="activitate2">
+                <a href="comingsoon.html"><img src="Resurse/Activitati studentesti/Proiecte interne de studen'i.png"
+                        class="iconita"></a>
+                <h4 class="titlu1">Proiecte interne pentru studenti</h4>
+
+            </div>
+        </div>
+        <div class="ultimele-activitati">
+            <div class="activitate3">
+                <h4 class="titlu">Erasmus pentru studenti</h4>
+                <a href="https://socio.unitbv.ro/ro/studenti/erasmus.html"><img
+                        src="Resurse/Activitati studentesti/E+.png" class="iconita"> </a>
+            </div>
+
+            <div class="activitate4">
+                <a href="comingsoon.html"><img src="Resurse/Activitati studentesti/Practică studenți.png"
+                        class="iconita"></a>
+                <h4 class="titlu1">Practica de specialitate</h4>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--==================CHAT BOT================================-->
+
+
+    <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chat with us!
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--==================END================================-->
+    <!--==================SUBSOL================================-->
+    <footer class="footer">
+        <div class="container-subsol">
+            <div class="row">
+
+                <div class="footer-col">
+                    <h4>STUDENȚI</h4>
+                    <ul>
+                        <li><a href="comingsoon.html">Ghidul studentului</a></li>
+                        <li><a href="comingsoon.html">Structură an universitar</a></li>
+                        <li><a href="comingsoon.html">Examene</a></li>
+                        <li><a href="comingsoon.html">Regulamente</a></li>
+                        <li><a href="comingsoon.html">Cămin</a></li>
+                        <li><a href="comingsoon.html">Asociația studenților</a></li>
+                        <li><a href="comingsoon.html">Consiliere</a></li>
+                        <li><a href="comingsoon.html">Secretariat</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>DESPRE MD</h4>
+                    <ul>
+                        <li><a href="comingsoon.html">Istoric</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>INTERNAȚIONAL</h4>
+                    <ul>
+                        <li><a href="comingsoon.html">Erasmus +</a></li>
+                        <li><a href="comingsoon.html">Mobilități erasmus</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>ADMITERE</h4>
+                    <ul>
+                        <li><a href="comingsoon.html">Informații admitere</a></li>
+                        <li><a href="comingsoon.html">Înscriere online</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CONTACT</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/sociologiesicomunicare/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/universitateatransilvania/"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="css/static/scripts/responses.js"></script>
+<script src="css/static/scripts/chat.js"></script>
+<!--Swiper JS-->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!--JavaScript-->
+<script src="js/script.js"> </script>
+
+</html>
